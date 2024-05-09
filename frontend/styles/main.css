@@ -1,0 +1,98 @@
+body {
+  background-color: #fff;
+  font-family: "Assistant", sans-serif;
+  color: #071c4d;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+body .title {
+  font-weight: 300;
+}
+body .title::after {
+  content: "";
+  display: block;
+  margin: 0.5em 0;
+  width: 3.5em;
+  height: 3px;
+  background: #071c4d;
+}
+body section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+body .navbar-brand .logo {
+  font-weight: bold;
+  font-size: 28px;
+  color: #071c4d;
+}
+body .navbar-light .navbar-nav .nav-link {
+  color: #071c4d;
+}
+body .navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071c4d;
+}
+body .btn-contact {
+  background-color: #071c4d;
+  color: #fff;
+}
+body .btn-contact:hover {
+  background-color: #1e3771;
+  color: #fff;
+}
+body header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+}
+body header h1,
+body header p {
+  color: #071c4d;
+}
+body header .btn-resume {
+  background-color: #fff;
+  border: 1px solid #071c4d;
+  border-radius: 4px;
+  color: #071c4d;
+}
+body header .btn-resume:hover {
+  background-color: #1e3771;
+  color: #fff;
+}
+body header .circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  background-color: #071c4d;
+  position: relative;
+}
+body header .circle img {
+  position: absolute;
+  top: -102px;
+  left: -30px;
+  width: 300px;
+}
+body .skill .title::after {
+  content: "";
+  display: block;
+  margin: 0.5em 0;
+  width: 3.5em;
+  height: 3px;
+  background: #fff;
+}
+body .project .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(7, 28, 77, 0.5019607843);
+  opacity: 0;
+  transition: 0.5s;
+}
+body .project:hover .overlay {
+  opacity: 1;
+}/*# sourceMappingURL=main.css.map */
